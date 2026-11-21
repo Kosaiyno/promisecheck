@@ -1,0 +1,23 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "project": "PromiseCheck",
+  "track": "Builder -> Intelligent Contracts",
+  "description": "On-chain TGE promise verification with quote-grounded GenLayer consensus",
+  "network": {
+    "name": "StudioNet",
+    "chain_id": 61999,
+    "rpc": "https://studio.genlayer.com/api",
+    "explorer": "https://explorer-studio.genlayer.com"
+  },
+  "runner": "py-genlayer:1jb45aa8ynh2a9c9xn3b7qqh8sm5q93hwfp7jqmwsfhh8jpz09h6",
+  "contract": {
+    "name": "PromiseCheck",
+    "file": "contracts/promise_check.py",
+    "address": "",
+    "explorer_url": "",
+    "deploy_tx": ""
+  },
+  "source_commit": "",
+  "transactions": [],
+  "demo_cases": []
+}

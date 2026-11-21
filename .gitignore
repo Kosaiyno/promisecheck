@@ -1,0 +1,7 @@
+node_modules/
+__pycache__/
+*.pyc
+.env
+deployer_pk.json
+deploy/deployment.json
+.DS_Store

@@ -1,0 +1,31 @@
+{
+  "cases": [
+    {
+      "id": "case_1_tge_delayed",
+      "project": "Xenea",
+      "promised_date": "Q1 2025",
+      "announcement_url": "REPLACE_WITH_ARCHIVED_ANNOUNCEMENT",
+      "evidence_url": "https://web.archive.org/web/20250316030723id_/https://setsuyakupapa.com/xeneaen/tge-schedule-change/",
+      "expected_status": "TGE_DELAYED",
+      "note": "Archived evidence contains an explicit statement that the mainnet launch and TGE were delayed."
+    },
+    {
+      "id": "case_2_tge_completed",
+      "project": "REPLACE",
+      "promised_date": "REPLACE",
+      "announcement_url": "REPLACE",
+      "evidence_url": "REPLACE",
+      "expected_status": "TGE_COMPLETED",
+      "note": "Use a project with a documented, completed TGE and an immutable evidence URL."
+    },
+    {
+      "id": "case_3_dead_source",
+      "project": "Xenea",
+      "promised_date": "Q1 2025",
+      "announcement_url": "REPLACE_WITH_ARCHIVED_ANNOUNCEMENT",
+      "evidence_url": "https://media.xenea.io/blog/20250309-en",
+      "expected_status": "FETCH_FAILED",
+      "note": "This URL returns HTTP 404 and has no archive snapshot, so the contract must return FETCH_FAILED instead of INSUFFICIENT_EVIDENCE."
+    }
+  ]
+}
